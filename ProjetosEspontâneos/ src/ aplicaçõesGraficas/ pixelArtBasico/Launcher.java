@@ -10,7 +10,7 @@ public class Launcher {
    public static Janela janela = new Janela();
  public static void main(String[] args){
      Launcher.janela.addMouseListener(new MouseAdapter(){
-          @Override
+     @Override
     public void mousePressed(MouseEvent e) {
     int x = (int) e.getX()/42;
     int y = (int) e.getY()/43;
